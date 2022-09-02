@@ -62,7 +62,7 @@ function Event({ event }) {
   const [message, setMessage] = useState(null);
   const [loading, setLoading] = useState(null);
   const [currentTimestamp, setEventTimestamp] = useState(new Date().getTime());
-
+  console.log(event.imageURL);
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <Head>
